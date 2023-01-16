@@ -13,6 +13,7 @@
 		AC6EA92329759C380023C86E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6EA92129759C380023C86E /* Main.storyboard */; };
 		AC6EA92529759C3A0023C86E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC6EA92429759C3A0023C86E /* Assets.xcassets */; };
 		AC6EA92829759C3A0023C86E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC6EA92629759C3A0023C86E /* LaunchScreen.storyboard */; };
+		AC6EA93029759DAE0023C86E /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6EA92F29759DAE0023C86E /* RandomNumberGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC6EA92429759C3A0023C86E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC6EA92729759C3A0023C86E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC6EA92929759C3A0023C86E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC6EA92F29759DAE0023C86E /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				AC6EA92429759C3A0023C86E /* Assets.xcassets */,
 				AC6EA92629759C3A0023C86E /* LaunchScreen.storyboard */,
 				AC6EA92929759C3A0023C86E /* Info.plist */,
+				AC6EA92F29759DAE0023C86E /* RandomNumberGenerator.swift */,
 			);
 			path = CreateCustomSDK;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				AC6EA92029759C380023C86E /* ViewController.swift in Sources */,
 				AC6EA91C29759C380023C86E /* AppDelegate.swift in Sources */,
 				AC6EA91E29759C380023C86E /* SceneDelegate.swift in Sources */,
+				AC6EA93029759DAE0023C86E /* RandomNumberGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
