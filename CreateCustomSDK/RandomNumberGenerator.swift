@@ -11,17 +11,17 @@ public class RandomNumberGenerator {
     
     private init(){}
     
-    public static func getNumber() {
-        
+    public static func getNumber() -> Int {
+        return getRandomNumberPrivate()
     }
     
-    static func getNumberNotPublic() {
-        
+    static func getNumberNotPublic() -> Int {
+        return 5
     }
     
     // MARK: - Private
     
-    private func getRandomNumber() {
-        return
+    private static func getRandomNumberPrivate() -> Int {
+        return Int.random(in: 10...99999)
     }
 }
